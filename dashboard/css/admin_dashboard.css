@@ -1,0 +1,95 @@
+#sidebar{
+    background-color: #181818;
+    width: 24vw;
+    height:250vh;
+    position: absolute;
+    padding: 25px 10px;
+    top:-0.9vh;
+    left:4.5vh;
+}
+.admin{
+    color: white;
+    font-size:5vh;
+}
+.btn-caption{
+    color:white;
+    display: inline;
+    margin-left:5px;
+    font-size:15px;
+}
+.btn-inverse{
+    position: relative;
+    top:-1em;
+    padding:1.5vh;
+    background-color: #181818;
+    color:white;
+    border: solid 0.5px; 
+}
+.btn-inverse:hover{
+    background-color: #818181;
+    color:#181818;  
+}
+.online-tab{
+    width:100%;
+    background-color:#0d950d;
+    padding:1vh;
+    text-align: right;
+
+}
+.user-tab{
+    width:100%;
+    background-color:#093a6b;
+    padding:1vh;
+    text-align: right;
+
+}
+.groupchat-tab{
+    width:100%;
+    background-color:#6b0909;
+    padding:1vh;
+    text-align: right;
+
+}
+.group-head{
+    color: white;
+    font-size:1.9rem;
+}
+.online-head{
+    color: white;
+    font-size:2rem;
+}
+.online-icon{
+    position: relative;
+    top:2vh;
+    left:.5vw;
+    color: white;
+    font-size:5em;
+}
+.online-number{
+    color: white;
+    font-size:2em;
+}
+#dashboard-fluid{
+	position: relative;
+	left:25vw;
+	top:9.80vh;
+	width: 74vw;
+    height:90vh;
+    overflow-y:scroll;
+    overflow-x: hidden;
+	
+}
+#dashboard-fluid::-webkit-scrollbar{
+	width:10px;
+}
+#dashboard-fluid::-webkit-scrollbar-thumb{
+	border-radius:10px;
+	background: rgba(0, 0, 0, 0.63);
+}
+#dashbrd{
+    width:100%;
+}
+.event-list{
+    position: relative;
+    top: 5vh;
+}

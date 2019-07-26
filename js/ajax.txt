@@ -1,0 +1,22 @@
+var data=new FormData();
+		var fileslength=document.getElementById('get-files').files.length;
+		var file=document.getElementById('get-files').files;
+		for(var i=0;i<fileslength;i++){
+			data.append("files[]",file[i]);
+		}
+		$.ajax({
+			url: 'upload.php', // point to server-side PHP script 
+			dataType: 'text', // what to expect back from the PHP script
+			cache: false,
+			contentType: false,
+			processData: false,
+			data: data,
+			type: 'post',
+			success: function (response) {
+				console.log(response); // display success response from the PHP script
+			},
+			error: function (response) {
+				console.log(response); // display error response from the PHP script
+			}
+		});
+	});
